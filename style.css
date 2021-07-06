@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Squada+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,700&display=swap');
+html{
+	scroll-behavior: smooth;
+}
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'crimson', sans-serif;
+}
+nav{
+	display: flex;
+	flex-wrap:wrap;
+	justify-content: center;
+	align-items: center;
+	border-bottom: 5px solid #2A363B;
+}
+nav h1{
+	color: #f7db4f;
+	font-family: 'crimson', sans-serif;
+	font-size: 30px;
+}
+nav .onglets{
+	margin-top: 3px;
+	margin-left: 700px;
+}
+nav .onglets a{
+	text-decoration: none;
+	color: #355c7d;
+	margin-right: 10px;
+	border-bottom: 1px solid #355c7d;
+	padding-bottom: 1px;
+}
+
+header{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background: url('https://lh3.googleusercontent.com/proxy/DlBi1o5M0JxltOQwdWNDpgXqM__ZbG8ka3gYAf7JR9uulKCFEVF79puXVDMa2U_iM6RMUcQ8aSZCIaq8B5NeFhvaY_QYTKmSlQ');
+	background-size: cover;
+	color: white;
+	padding: 30px;
+}
+header h1{
+	font-family: 'squada', sans-serif;
+	font-size: 50px;
+}
+header h4{
+	margin-top: -20px;
+	font-size: 20px;
+	text-align: center;
+	border-bottom: 1px solid white;
+}
+header button{
+	padding: 10px 20px;
+	background-color: whitesmoke;
+	color: black;
+	border: none;
+	font-size: 20px;
+	font-family: squada;
+	outline: none;
+	cursor: pointer;
+}
+
+.main{
+	margin-top: 40px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.main .content .card{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-bottom: 40px;
+}
+.main .content .card .left{
+	flex: 0 0 30%;
+	padding: 20px;
+	background: black;
+	color: white;
+}
+.main .content .card.right{
+	flex: 0 0 70%;
+}
+.main .content .card .right img{
+	height: 300px;
+	width: 250px;
+	margin-top: 5px;
+}
+
+footer{
+	margin-top: 30px;
+	border-top: 9px solid #355c7d;
+	background-color: black;
+	color: white;
+	padding: 30px 100px;
+}
+footer h3{
+	font-family: crimson;
+	border-bottom: 1px solid #fff;
+	width: 22%;
+	padding-bottom: 2px;
+}
+footer .services{
+	margin-top: -10px;
+	display: flex;
+	flex-wrap: wrap;
+}
+footer .services .service{
+	margin-right: 300px;
+	padding: 5px;
+}
+footer .services .service p{
+	max-width: 350px;
+}
+@media screen and (max-width: 600px){
+	nav.onglets{
+		margin-left: 0px;
+		margin-bottom: 20px;
+	}
+}
